@@ -1,0 +1,23 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kutya {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 0 0 25%;
+}
+
+@media screen and (max-width:500px){
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .kutya {
+        border: 1px solid black;
+        padding: 5px;
+        flex: 0 0 100%;
+    }
+}
